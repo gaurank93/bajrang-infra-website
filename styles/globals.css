@@ -14,20 +14,29 @@ a {
 * {
   box-sizing: border-box;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://db.onlinewebfonts.com/c/dce69386e0ce700a89a4756dcaa143f2?family=Exotc350+Bd+BT');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: 'Varela Round', sans-serif !important; 
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
+  scroll-behavior: smooth;
 }
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Varela Round', sans-serif !important; 
 }
 h2 {
   text-transform: uppercase;
@@ -53,12 +62,15 @@ h5 {
 }
 p {
   font-size: 15px;
+  font-family: 'Varela Round', sans-serif !important; 
+
 }
 p.intro {
   margin: 12px 0 0;
   line-height: 24px;
 }
 a {
+  font-family: 'Varela Round', sans-serif !important; 
   color: #608dfd;
   font-weight: 400;
 }
@@ -74,8 +86,8 @@ ol {
 ul,
 ol {
   padding: 0;
-  webkit-padding: 0;
-  moz-padding: 0;
+  font-family: 'Varela Round', sans-serif !important; 
+
 }
 hr {
   height: 2px;
@@ -221,7 +233,15 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
-.intro {
+.intro{
+  position: relative;
+}
+.intro::before {
+  content: '';
+  position: absolute;
+  z-index: -999;
+  height: 100% !important;
+  filter: blur(10px);
   display: table;
   width: 100%;
   padding: 0;
@@ -232,10 +252,12 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
+  text-shadow:1px 1px 2px #000000, 0 0 25px #ff9604, 0 0 5px #5f4e3e;;
   font-family: "Raleway", sans-serif;
   color: #fff;
   font-size: 82px;
@@ -249,6 +271,7 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
+  text-shadow:1px 1px 2px #000000, 0 0 25px #ff9604, 0 0 5px #5f4e3e;;
   color: #fff;
   font-size: 22px;
   font-weight: 300;
@@ -257,9 +280,14 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 300px;
   padding-bottom: 200px;
   text-align: center;
+  font-family: 'Varela Round', sans-serif !important; 
+}
+header .intro-text h1{
+  /* font-family: 'Exotc350 Bd BT', sans-serif; */
+  font-family: 'Varela Round', sans-serif !important; 
 }
 /* Features Section */
 #features {
@@ -300,6 +328,10 @@ header .intro-text {
   bottom: 0;
   left: 0;
 }
+#about .about-us-img{
+  box-shadow:0 4px 8px 0 rgb(0 0 0 / 10%), 0 6px 20px 0 rgb(0 0 0 / 38%);
+  height: max-content;
+}
 #about .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
@@ -320,6 +352,7 @@ header .intro-text {
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
 }
 #about p {
   line-height: 24px;
@@ -332,7 +365,7 @@ header .intro-text {
   color: #fff;
 }
 #services .service-desc {
-  margin: 10px 10px 20px;
+  /* margin: 10px 10px 20px; */
 }
 #services h2 {
   color: #fff;
@@ -381,6 +414,10 @@ header .intro-text {
   position: relative;
   margin: 0;
 }
+.portfolio-item img{
+  padding: 10px;
+  border-radius: 20px;
+}
 .hover-bg .hover-text {
   position: absolute;
   text-align: center;
@@ -391,7 +428,7 @@ header .intro-text {
     rgba(99, 114, 255, 0.8) 0%,
     rgba(92, 169, 251, 0.8) 100%
   );
-  padding: 30% 0 0;
+  padding: 20% 0 0;
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -547,6 +584,7 @@ label {
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
+  border-radius: 6px !important;
 }
 #contact .form-control:focus {
   border-color: #999;
@@ -620,6 +658,9 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+  body{
+    width: fit-content !important;
   }
 }
 

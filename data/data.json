@@ -1,53 +1,54 @@
 {
   "Header": {
     "title": "Shree Bajrang Infra",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "paragraph": "UDAIPUR'S LARGEST JCB RENTAL CO."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "We offer highly reliable Construction Equipment Rental Services to the clients. We have a fleet of construction Equipment available for the rent for different purpose. The equipment like JCB's and Trucks is kept in excellent working condition and regular inspection is done to ensure that no snag appears at the time of services. The rental service is available for the equipment to be used anywhere in the udaipur.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Udaipur's best JCB's rental co.",
+      "Low booking deposit",
+      "Customer support",
+      "Full Insurance"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "24 Hour Assistance",
+      "Lowest price guarantee",
+      "Transparent Deals",
+      "Value For Money"
     ]
   },
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-group",
+      "name": "24x7 Customer Care",
+      "text": "Call us any time in case of breakdown and recovery."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-check",
+      "name": "Find the right JCB's in less time",
+      "text": "Leave the problem to us and expect good JCB's in no time."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-server",
+      "name": "Hassle free JCB's selection",
+      "text": "Find the JCB's matching your requirements with less efforts."
+    },
+    
+    {
+      "icon": "fa fa-thumbs-up",
+      "name": "Reliable Service",
+      "text": "Providing customers with reliable and premium Intercity and Local JCB rental services."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Excellent JCB's Hire Discounts",
+      "text": "Best discounts as compared from market when you hire JCB's from us."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-rupee",
+      "name": "Best Price Guarantee",
+      "text": "Complete clearity on all charges and area there is no hidden or unclear payment to cause further hindrance."
     }
   ],
   "Testimonials": [
@@ -114,24 +115,24 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-clipboard",
+      "title": "Maximum Choice",
+      "text": "100+ Equipment. Provide maximum range of construction equipment from different segment."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Transparent Deals",
+      "text": "Complete clearity on all charges and area there is no hidden or unclear payment to cause further hindrance."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "24 Hour Assistance",
+      "text": "Call us any time in case of breakdown and recovery."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Full Insurance",
+      "text": "You have full comprehensive all risks coverage insurance."
     }
   ]
 }

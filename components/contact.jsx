@@ -17,20 +17,24 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(name, email, message)
-    // emailjs
-    //   .sendForm(
-    //     'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text)
-    //       clearState()
-    //     },
-    //     (error) => {
-    //       console.log(error.text)
-    //     }
-    //   )
+      const data = {
+        'name': document.getElementById("name").value,
+        'email':  document.getElementById("email").value,
+        'message':  document.getElementById("message").value
+      };
+      fetch('/api/contact', {
+        method: 'post',
+        headers: {
+          'Accept': 'application/json, text/plain, */*',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      }).then((res) => {
+        res.status === 200
+      })
+      swal("Thank You!", "We will contact you soon..!", "success");
+      $("#contact-form")[0].reset();
+
   }
   return (
     <div>
@@ -45,7 +49,7 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit}>
+              <form name='sentMessage' id="contact-form" onSubmit={handleSubmit}>
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>

@@ -5,8 +5,7 @@ export const Gallery = (props) => {
         <div className='section-title'>
           <h2>Gallery</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          SHOWCASING OUR PRODUCTS.
           </p>
         </div>
         <div className='row'>
@@ -19,10 +18,11 @@ export const Gallery = (props) => {
                     href='img/portfolio/jcb_image.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
+                    target="_blank"
                   >
-                    <div className='hover-text'>
+                    {/* <div className='hover-text'>
                       <h4>Lorem Ipsum</h4>
-                    </div>
+                    </div> */}
                     <img
                       src='img/portfolio/jcb_image.jpeg'
                       className='img-responsive'
@@ -40,10 +40,11 @@ export const Gallery = (props) => {
                     href='img/portfolio/jcb_about.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
+                    target="_blank"
                   >
-                    <div className='hover-text'>
+                    {/* <div className='hover-text'>
                       <h4>Adipiscing Elit</h4>
-                    </div>
+                    </div> */}
                     <img
                       src='img/portfolio/jcb_about.jpeg'
                       className='img-responsive'
@@ -61,10 +62,11 @@ export const Gallery = (props) => {
                     href='img/portfolio/jcb_image.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
+                    target="_blank"
                   >
-                    <div className='hover-text'>
+                    {/* <div className='hover-text'>
                       <h4>Lorem Ipsum</h4>
-                    </div>
+                    </div> */}
                     <img
                       src='img/portfolio/jcb_image.jpeg'
                       className='img-responsive'
@@ -82,10 +84,11 @@ export const Gallery = (props) => {
                     href='img/portfolio/jcb_about.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
+                    target="_blank"
                   >
-                    <div className='hover-text'>
+                    {/* <div className='hover-text'>
                       <h4>Lorem Ipsum</h4>
-                    </div>
+                    </div> */}
                     <img
                       src='img/portfolio/jcb_about.jpeg'
                       className='img-responsive'
@@ -103,10 +106,11 @@ export const Gallery = (props) => {
                     href='img/portfolio/jcb_image.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
+                    target="_blank"
                   >
-                    <div className='hover-text'>
+                    {/* <div className='hover-text'>
                       <h4>Adipiscing Elit</h4>
-                    </div>
+                    </div> */}
                     <img
                       src='img/portfolio/jcb_image.jpeg'
                       className='img-responsive'
@@ -124,10 +128,11 @@ export const Gallery = (props) => {
                     href='img/portfolio/jcb_about.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
+                    target="_blank"
                   >
-                    <div className='hover-text'>
+                    {/* <div className='hover-text'>
                       <h4>Dolor Sit</h4>
-                    </div>
+                    </div> */}
                     <img
                       src='img/portfolio/jcb_about.jpeg'
                       className='img-responsive'
@@ -145,10 +150,11 @@ export const Gallery = (props) => {
                     href='img/portfolio/jcb_image.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
+                    target="_blank"
                   >
-                    <div className='hover-text'>
+                    {/* <div className='hover-text'>
                       <h4>Dolor Sit</h4>
-                    </div>
+                    </div> */}
                     <img
                       src='img/portfolio/jcb_image.jpeg'
                       className='img-responsive'
@@ -166,10 +172,11 @@ export const Gallery = (props) => {
                     href='img/portfolio/jcb_about.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
+                    target="_blank"
                   >
-                    <div className='hover-text'>
+                    {/* <div className='hover-text'>
                       <h4>Lorem Ipsum</h4>
-                    </div>
+                    </div> */}
                     <img
                       src='img/portfolio/jcb_about.jpeg'
                       className='img-responsive'
@@ -187,10 +194,11 @@ export const Gallery = (props) => {
                     href='img/portfolio/jcb_image.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
+                    target="_blank"
                   >
-                    <div className='hover-text'>
+                    {/* <div className='hover-text'>
                       <h4>Adipiscing Elit</h4>
-                    </div>
+                    </div> */}
                     <img
                       src='img/portfolio/jcb_image.jpeg'
                       className='img-responsive'

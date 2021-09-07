@@ -29,8 +29,10 @@ export default function Home() {
         />
         <link rel="stylesheet" href="/css/bootstrap.css" />
         <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></script>
         <script type="text/javascript" src="/js/jquery.1.11.1.js"></script>
         <script type="text/javascript" src="/js/bootstrap.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
       </Head>
       <Navigation />
       <Header data={landingPageData.Header} />
