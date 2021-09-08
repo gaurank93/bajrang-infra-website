@@ -104,7 +104,7 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Address
+                  <i className='fa fa-map-marker'> Address</i> 
                 </span>
                 {props.data ? props.data.address : 'loading'}
               </p>
@@ -112,7 +112,7 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-phone'></i> Phone
+                  <i className='fa fa-phone'> Phone</i> 
                 </span> 
                 {props.data ? props.data.phone : 'loading'}
               </p>
@@ -120,7 +120,7 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-envelope-o'></i> Email
+                  <i className='fa fa-envelope-o'> Email</i> 
                 </span> 
                 {props.data ? props.data.email : 'loading'}
               </p>

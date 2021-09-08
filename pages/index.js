@@ -46,7 +46,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <p>
-          &copy; 2020 Shree Bajrang Infra. Design by
+          &copy; {new Date().getFullYear()} Shree Bajrang Infra. Design by
           <a href="https://alvrio.io/" rel="nofollow">
             alvrio.io
           </a>
