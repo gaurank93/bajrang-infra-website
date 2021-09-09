@@ -10,7 +10,7 @@ export default function (req, res) {
       }))
     const mailData = {
       from: 'no-reply@alvrio.io',
-      to: "jprateek07@gmail.com",
+      to: "choudhary.niranjan2010@gmail.com",
       subject: `New Request From Bajrang Infra Website `,
       html:
         "name: " +

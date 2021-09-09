@@ -336,7 +336,7 @@ header .intro-text h1{
 }
 #about .about-us-img{
   box-shadow:0 4px 8px 0 rgb(0 0 0 / 10%), 0 6px 20px 0 rgb(0 0 0 / 38%);
-  height: max-content;
+  max-height: 410px;
 }
 #about .about-text li {
   margin-bottom: 6px;
@@ -426,7 +426,9 @@ header .intro-text h1{
   margin: 0;
 }
 .portfolio-item img{
+  max-height: 190px;
   padding: 10px;
+  min-width: 385px;
   border-radius: 20px;
 }
 .hover-bg .hover-text {
